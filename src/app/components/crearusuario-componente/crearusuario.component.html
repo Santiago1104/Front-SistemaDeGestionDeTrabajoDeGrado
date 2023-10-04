@@ -1,0 +1,17 @@
+<div class="body-content">
+    <button (click)="toggleInfo()" class="logo-button">
+      <img src="https://icones.pro/wp-content/uploads/2021/02/icone-utilisateur-bleu.png" alt="Logo" class="logo">
+    </button>
+    <div class="info-box" [class.visible]="infoVisible">
+      <p>Nombre: {{ nombre }}</p>
+      <p>Correo: {{ correo }}</p>
+      <p>Código: {{ codigo }}</p>
+      <p>Rol: {{ rol }}</p>
+    </div>
+    
+    <div class="options-container">
+      <button class="option-button">Gestionar Usuario</button>
+      <button class="option-button">Docentes</button>
+      <button class="option-button">Configuración</button>
+    </div>
+  </div>

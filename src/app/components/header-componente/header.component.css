@@ -1,0 +1,49 @@
+
+
+.header-container {
+    background-color: #cccbcb; /* Color de fondo gris claro */
+    padding: 8px; /* Espaciado interior del encabezado */
+    display: flex;
+    justify-content: space-between; /* Alinear contenido al espacio entre los elementos */
+    align-items: center; /* Centrar verticalmente el contenido */
+    border-radius: 10px;
+  }
+  
+  .logo {
+    
+    max-width: 250px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+
+  .header-title {
+    font-size: 22px;
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    margin-left: 280px;
+}
+  .button-container {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 10px; 
+  }
+  
+  .button {
+    font-family: "Confortaa", sans-serif;
+    font-size: 18px;
+    margin-left: 10px; 
+    text-decoration: none;
+    background: none;
+    color: #094a8f; 
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    outline: none; 
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    color: #0d4179; 
+  }
